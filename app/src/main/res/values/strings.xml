@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Vladimir_Rybalko-pr319k</string>
+    <string name="f1">Дорога</string>
+    <string name="f2">Работа</string>
+    <string name="f3">Отдых</string>
+    <string name="f4">Учёба</string>
+    <string name="text1">Таймеры</string>
+    <string name="todo1">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="todo123">TODO</string>
+    <string name="todo123123">TODO</string>
+    <string name="todo1222">TODO</string>
+    <string name="time_view2">TextView</string>
+</resources>
