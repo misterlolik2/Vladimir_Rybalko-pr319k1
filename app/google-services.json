@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "331452380862",
+    "firebase_url": "https://bazasecond-ec29f-default-rtdb.firebaseio.com",
+    "project_id": "bazasecond-ec29f",
+    "storage_bucket": "bazasecond-ec29f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:331452380862:android:54f95ddd91e6ca089e50ef",
+        "android_client_info": {
+          "package_name": "com.example.vladimir_rybalko_pr319k"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "331452380862-6qq7e45kdebilpiu9j40u766ovhah8b3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqndCbYjG7lxKJGaBhXDDOcCL083aKyDw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "331452380862-6qq7e45kdebilpiu9j40u766ovhah8b3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

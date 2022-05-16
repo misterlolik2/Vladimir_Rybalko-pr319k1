@@ -119,10 +119,10 @@
         android:contentDescription="@string/todo1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.264"
+        app:layout_constraintVertical_bias="0.265"
         app:srcCompat="@drawable/kisspng_silhouette_racing_car_formula_one_auto_racing_japa_race_car_5ac73f07354ae9_8497324315230072392183" />
 
     <ImageView
@@ -132,10 +132,10 @@
         android:contentDescription="@string/todo123"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.404"
+        app:layout_constraintVertical_bias="0.405"
         app:srcCompat="@drawable/pngwing_com" />
 
     <ImageView
@@ -144,15 +144,15 @@
         android:layout_height="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.544"
+        app:layout_constraintVertical_bias="0.543"
         app:srcCompat="@drawable/pngegg" />
 
     <TextView
         android:id="@+id/time_view"
-        android:layout_width="114dp"
+        android:layout_width="51dp"
         android:layout_height="48dp"
         android:ems="10"
         android:inputType="time"
@@ -160,10 +160,10 @@
         android:textColor="#0277BD"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.276"
+        app:layout_constraintHorizontal_bias="0.229"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.299"
+        app:layout_constraintVertical_bias="0.297"
         tools:ignore="SpeakableTextPresentCheck,TextContrastCheck,TextContrastCheck" />
 
     <ImageButton
@@ -223,10 +223,10 @@
         android:onClick="OnClickStart3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintHorizontal_bias="0.953"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.677"
+        app:layout_constraintVertical_bias="0.68"
         app:srcCompat="@android:drawable/ic_media_play"
         tools:ignore="SpeakableTextPresentCheck" />
 
@@ -246,15 +246,14 @@
 
     <ImageView
         android:id="@+id/imageView9"
-        android:layout_width="75dp"
-        android:layout_height="55dp"
+        android:layout_width="65dp"
+        android:layout_height="51dp"
+        android:layout_marginEnd="300dp"
         android:contentDescription="@string/todo1222"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.02"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.683"
+        app:layout_constraintVertical_bias="0.678"
         app:srcCompat="@drawable/pngwing_com__1_" />
 
     <Button
@@ -312,17 +311,17 @@
 
     <TextView
         android:id="@+id/time_view4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="50dp"
+        android:layout_height="18dp"
         android:minWidth="48dp"
         android:minHeight="48dp"
         android:text="0:00:00"
         android:textColor="#0277BD"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.223"
+        app:layout_constraintHorizontal_bias="0.225"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.708" />
+        app:layout_constraintVertical_bias="0.674" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
