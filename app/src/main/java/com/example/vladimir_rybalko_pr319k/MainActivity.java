@@ -2,14 +2,17 @@ package com.example.vladimir_rybalko_pr319k;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.TextureView;
 import android.view.View;
+import android.widget.ImageView;
+import android.widget.Switch;
 import android.widget.TextView;
 import android.os.Handler;
 
-public class MainActivity extends AppCompatActivity  {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private int seconds;
     private int seconds1;
     private int seconds2;
@@ -28,6 +31,17 @@ public class MainActivity extends AppCompatActivity  {
         runTimer2();
         runTimer3();
     }
+    @Override
+    public void onClick(View v){
+        Intent intent;
+        switch (v.getId()){
+            case R.id.imageView2:
+        intent = new Intent(MainActivity.this, MainActivity2.class);
+        startActivity(intent);
+        break;
+        }
+    }
+
 
 
     public void OnClickReset(View view) {

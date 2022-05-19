@@ -9,12 +9,30 @@
 
     <CalendarView
         android:id="@+id/calendarView"
-        android:layout_width="412dp"
-        android:layout_height="434dp"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:focusedMonthDateColor="#FFFFFF"
+        android:selectedWeekBackgroundColor="#B12222"
+        android:unfocusedMonthDateColor="#FFFFFF"
+        android:weekNumberColor="#E40000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.454"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.008" />
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView111"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:onClick="onClick123"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/_24222" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
