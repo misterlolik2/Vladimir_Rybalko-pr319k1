@@ -7,4 +7,14 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <style name="CustomAnimationButton" parent="@style/Widget.AppCompat.Button">
+        <item name="colorButtonNormal">#1a237e</item>
+        <item name="colorControlHighlight">#673ab7</item>
+        <item name="android:stateListAnimator">@+id/btnReset</item>
+    </style>
+    <style name="CustomAnimationButton1" parent="@style/Widget.AppCompat.Button">
+        <item name="colorButtonNormal">#1a237e</item>
+        <item name="colorControlHighlight">#673ab7</item>
+        <item name="android:stateListAnimator">@+id/btnStop</item>
+    </style>
 </resources>

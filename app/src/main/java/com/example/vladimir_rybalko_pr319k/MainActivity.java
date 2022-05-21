@@ -32,13 +32,22 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         runTimer3();
     }
     @Override
-    public void onClick(View v){
+    public void onClick(View v) {
+        Intent intent;
+        switch (v.getId()) {
+            case R.id.imageView2:
+                intent = new Intent(MainActivity.this, MainActivity2.class);
+                startActivity(intent);
+                break;
+        }
+    }
+    public void onClick4(View v){
         Intent intent;
         switch (v.getId()){
-            case R.id.imageView2:
-        intent = new Intent(MainActivity.this, MainActivity2.class);
-        startActivity(intent);
-        break;
+            case R.id.imageView3:
+                intent = new Intent(MainActivity.this, MainActivity3.class);
+                startActivity(intent);
+                break;
         }
     }
 
