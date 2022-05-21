@@ -32,7 +32,7 @@
                 android:valueType="floatType"/>
             <objectAnimator android:duration="120"
                 android:propertyName="elevation"
-                android:valueTo="8dp"
+                android:valueTo="9dp"
                 android:valueType="floatType"/>
         </set>
     </item>
