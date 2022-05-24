@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "331452380862",
-    "firebase_url": "https://bazasecond-ec29f-default-rtdb.firebaseio.com",
-    "project_id": "bazasecond-ec29f",
-    "storage_bucket": "bazasecond-ec29f.appspot.com"
+    "project_number": "528586992750",
+    "firebase_url": "https://zametki-4157c-default-rtdb.firebaseio.com",
+    "project_id": "zametki-4157c",
+    "storage_bucket": "zametki-4157c.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:331452380862:android:54f95ddd91e6ca089e50ef",
+        "mobilesdk_app_id": "1:528586992750:android:8e72696c15592d08618a7f",
         "android_client_info": {
           "package_name": "com.example.vladimir_rybalko_pr319k"
         }
       },
       "oauth_client": [
         {
-          "client_id": "331452380862-6qq7e45kdebilpiu9j40u766ovhah8b3.apps.googleusercontent.com",
+          "client_id": "528586992750-8kfgbpkgmo07no9361dm8gub386nhmrs.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCqndCbYjG7lxKJGaBhXDDOcCL083aKyDw"
+          "current_key": "AIzaSyAr2uQBALDEDcEFPa2-hZ7gFSeIw5pXKms"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "331452380862-6qq7e45kdebilpiu9j40u766ovhah8b3.apps.googleusercontent.com",
+              "client_id": "528586992750-8kfgbpkgmo07no9361dm8gub386nhmrs.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

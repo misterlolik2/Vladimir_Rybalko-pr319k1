@@ -18,7 +18,7 @@ public class MainActivity2 extends AppCompatActivity {
         Intent intent;
         switch (v.getId()){
             case R.id.imageView111:
-                intent = new Intent(MainActivity2.this, MainActivity.class);
+                intent = new Intent(MainActivity2.this, MainActivity1.class);
                 startActivity(intent);
                 break;
         }

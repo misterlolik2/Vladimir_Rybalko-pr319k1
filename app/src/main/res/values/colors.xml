@@ -15,6 +15,6 @@
     <style name="CustomAnimationButton1" parent="@style/Widget.AppCompat.Button">
         <item name="colorButtonNormal">#1a237e</item>
         <item name="colorControlHighlight">#673ab7</item>
-        <item name="android:stateListAnimator">@+id/btnStop</item>
+        <item name="android:stateListAnimator">@+id/Zametka</item>
     </style>
 </resources>
