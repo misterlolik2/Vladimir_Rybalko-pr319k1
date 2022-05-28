@@ -13,10 +13,9 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-    private  EditText pddata, pdzametka;
+    private EditText pddata, pdzametka, pdnameZ;
     private DatabaseReference mDataBase;
     private String zamettki = "Zametki";
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,10 +27,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
 
-    public void init()
-    {
+    public void init() {
         pddata = findViewById(R.id.pddata);
         pdzametka = findViewById(R.id.pdzametka);
+        pdnameZ = findViewById(R.id.NameZ);
         mDataBase = FirebaseDatabase.getInstance().getReference(zamettki);
     }
 
@@ -45,22 +44,21 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
 
-        public void onClickSave (View View){
-            String id = mDataBase.getKey();
-            String data = pddata.getText().toString();
-            String zametka = pdzametka.getText().toString();
-            Zametki newdoxod = new Zametki(id, data, zametka);
-            if (!TextUtils.isEmpty(zametka)) {
-                mDataBase.push().setValue(newdoxod);
-                Toast.makeText(this, "Вы добавили заметку", Toast.LENGTH_SHORT).show();
-                Intent i = new Intent(MainActivity.this, MainActivity3.class);
-                startActivity(i);
-
-            } else {
-                Toast.makeText(this, "Введите сумму", Toast.LENGTH_SHORT).show();
-            }
-
-
+    public void onClickSave(View View) {
+        String id = mDataBase.getKey();
+        String data = pddata.getText().toString();
+        String zametka = pdzametka.getText().toString();
+        String nameZ = pdnameZ.getText().toString();
+        Zametki newdoxod = new Zametki(id, data, zametka, nameZ);
+        if (!TextUtils.isEmpty(zametka)) {
+            mDataBase.push().setValue(newdoxod);
+            Toast.makeText(this, "Вы добавили заметку", Toast.LENGTH_SHORT).show();
+            Intent i = new Intent(MainActivity.this, MainActivity3.class);
+            startActivity(i);
         }
-
+        else
+        {
+            Toast.makeText(this, "Заполните пустое поле", Toast.LENGTH_SHORT).show();
+        }
     }
+}
