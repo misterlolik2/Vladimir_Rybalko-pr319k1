@@ -34,32 +34,33 @@
         android:minHeight="48dp"
         app:layout_constraintBottom_toTopOf="@+id/pdzametka"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintHorizontal_bias="0.454"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.772" />
 
     <EditText
         android:id="@+id/pdzametka"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="75dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="372dp"
         android:layout_marginEnd="75dp"
         android:ems="10"
         android:hint="Время"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.525"
+        app:layout_constraintHorizontal_bias="0.454"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/pddata"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="TouchTargetSizeCheck" />
 
     <Button
         android:id="@+id/Zametka"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="80dp"
-        android:layout_marginBottom="256dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="296dp"
         android:backgroundTint="#005EFF"
         android:elevation="6dp"
         android:fontFamily="@font/ofont"
@@ -74,8 +75,8 @@
         android:id="@+id/button22"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="136dp"
-        android:layout_marginBottom="172dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="216dp"
         android:backgroundTint="#005EFF"
         android:elevation="6dp"
         android:onClick="onClick"
@@ -96,9 +97,9 @@
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.43"
+        app:layout_constraintHorizontal_bias="0.214"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.208"
+        app:layout_constraintVertical_bias="0.207"
         tools:ignore="TouchTargetSizeCheck" />
 </androidx.constraintlayout.widget.ConstraintLayout>
